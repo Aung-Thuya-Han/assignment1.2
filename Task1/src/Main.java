@@ -10,6 +10,6 @@ public class Main {
 
         double celsius = converter.convert(fahrenheit);
 
-        System.out.printf("Temperature in Celsius: %.1f%n", celsius);
+        System.out.printf("Temperature in Celsius: %.1f", celsius);
     }
 }
