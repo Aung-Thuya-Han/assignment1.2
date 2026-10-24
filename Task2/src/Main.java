@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         RightTriangle triangle = new RightTriangle();
 
@@ -14,5 +15,6 @@ public class Main {
         double hypotenuse = triangle.calculateHypotenuse(firstLeg, secondLeg);
 
         System.out.println("Length of the hypotenuse: " + hypotenuse);
+
     }
 }

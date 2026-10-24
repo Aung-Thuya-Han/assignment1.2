@@ -6,10 +6,10 @@ public class Main {
         FahrenheitToCelsius converter = new FahrenheitToCelsius();
 
         System.out.print("Temperature in Fahrenheit: ");
-        double fahrenheit = Double.parseDouble(scanner.nextLine());
+        double fahren = Double.parseDouble(scanner.nextLine());
 
-        double celsius = converter.convert(fahrenheit);
+        double celsi = converter.convert(fahren);
 
-        System.out.printf("Temperature in Celsius: %.1f", celsius);
+        System.out.printf("Temperature in Celsius: %.1f", celsi);
     }
 }
